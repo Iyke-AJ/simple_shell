@@ -1,10 +1,10 @@
 #include "shell.h"
 
 /**
- * collaborating - returns the code to be true if shell is in collaborating mode
+ * interactive - returns the code to be true if shell is in interactive mode
  * @info: the struct address
  *
- * Return: if collaborating in mode, return 1 and 0 if otherwise
+ * Return: if interactive in mode, return 1 and 0 if otherwise
  */
 int interactive(info_t *info)
 {
